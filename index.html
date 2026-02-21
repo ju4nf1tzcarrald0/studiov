@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio V | Luxury Event Production, Brand Partnerships &amp; Strategy</title>
+  <meta name="description" content="Studio V is a luxury creative agency specializing in high-end event production, brand partnerships, and strategic consulting for design, art, and lifestyle brands.">
+  <meta name="keywords" content="luxury events, event production, brand partnerships, creative strategy, design events, art events, luxury brand consulting, 1stDibs, experiential marketing">
+  <meta name="author" content="Studio V">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.studiov.agency/">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Studio V | Luxury Event Production, Brand Partnerships &amp; Strategy">
+  <meta property="og:description" content="Studio V is a luxury creative agency specializing in high-end event production, brand partnerships, and strategic consulting for design, art, and lifestyle brands.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.studiov.agency/">
+  <meta property="og:image" content="https://www.studiov.agency/images/luxury-dinner-grand-ballroom-chandeliers.jpg">
+  <meta property="og:site_name" content="Studio V">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Studio V | Luxury Event Production, Brand Partnerships &amp; Strategy">
+  <meta name="twitter:description" content="Luxury creative agency specializing in high-end event production, brand partnerships, and strategic consulting.">
+  <meta name="twitter:image" content="https://www.studiov.agency/images/luxury-dinner-grand-ballroom-chandeliers.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+  <!-- Preload hero image -->
+  <link rel="preload" as="image" href="images/luxury-dinner-grand-ballroom-chandeliers.jpg">
+
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "Studio V",
+    "description": "Luxury creative agency specializing in high-end event production, brand partnerships, and strategic consulting for design, art, and lifestyle brands.",
+    "url": "https://www.studiov.agency",
+    "email": "emilia@studiov.agency",
+    "sameAs": [
+      "https://www.linkedin.com/in/emilia-vincent",
+      "https://www.instagram.com/dibsondesign/"
+    ],
+    "founder": {
+      "@type": "Person",
+      "name": "Emilia Vincent",
+      "url": "https://www.linkedin.com/in/emilia-vincent"
+    },
+    "knowsAbout": ["Event Production", "Brand Partnerships", "Creative Strategy", "Luxury Events", "Experiential Marketing"],
+    "serviceType": ["Event Production", "Brand Partnerships", "Strategic Consulting"]
+  }
+  </script>
+
+  <style>
+    /* Reset & Base */
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+
+    :root {
+      --color-bg: #f9f8f6;
+      --color-text: #1a1a1a;
+      --color-text-light: #555;
+      --color-accent: #2c2c2c;
+      --font-heading: 'Georgia', 'Times New Roman', serif;
+      --font-body: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: var(--font-body);
+      color: var(--color-text);
+      background: var(--color-bg);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Skip Link (accessibility) */
+    .skip-link {
+      position: absolute;
+      top: -100%;
+      left: 0;
+      background: var(--color-text);
+      color: #fff;
+      padding: 0.5rem 1rem;
+      z-index: 1000;
+      transition: top 0.2s;
+    }
+    .skip-link:focus { top: 0; }
+
+    /* Header */
+    header {
+      text-align: center;
+      padding: 4rem 1.5rem 2rem;
+    }
+
+    .logo {
+      font-family: var(--font-heading);
+      font-size: clamp(2.5rem, 6vw, 4.5rem);
+      font-weight: 400;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      color: var(--color-text);
+    }
+
+    .tagline {
+      font-size: clamp(0.75rem, 2vw, 1rem);
+      letter-spacing: 0.35em;
+      text-transform: uppercase;
+      color: var(--color-text-light);
+      margin-top: 0.75rem;
+      font-weight: 300;
+    }
+
+    /* Navigation */
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1.5rem 1rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: var(--color-text-light);
+      font-size: 0.85rem;
+      letter-spacing: 0.15em;
+      text-transform: uppercase;
+      transition: color 0.3s;
+    }
+    nav a:hover { color: var(--color-text); }
+
+    /* Sections */
+    section {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+    }
+
+    .section-title {
+      font-family: var(--font-heading);
+      font-size: clamp(1.5rem, 3vw, 2.25rem);
+      font-weight: 400;
+      text-align: center;
+      letter-spacing: 0.1em;
+      margin-bottom: 1rem;
+    }
+
+    .section-subtitle {
+      text-align: center;
+      color: var(--color-text-light);
+      max-width: 640px;
+      margin: 0 auto 3rem;
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+
+    /* Portfolio Grid */
+    .portfolio-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 1rem;
+    }
+
+    .portfolio-grid figure {
+      position: relative;
+      overflow: hidden;
+      line-height: 0;
+    }
+
+    .portfolio-grid img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+      transition: transform 0.6s ease;
+      display: block;
+    }
+
+    .portfolio-grid figure:hover img {
+      transform: scale(1.03);
+    }
+
+    .portfolio-grid figcaption {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: linear-gradient(transparent, rgba(0,0,0,0.7));
+      color: #fff;
+      padding: 2rem 1rem 1rem;
+      font-size: 0.8rem;
+      letter-spacing: 0.05em;
+      line-height: 1.4;
+      opacity: 0;
+      transition: opacity 0.4s ease;
+    }
+
+    .portfolio-grid figure:hover figcaption { opacity: 1; }
+
+    /* Services */
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 3rem;
+      text-align: center;
+    }
+
+    .service h3 {
+      font-family: var(--font-heading);
+      font-size: 1.25rem;
+      font-weight: 400;
+      letter-spacing: 0.1em;
+      margin-bottom: 1rem;
+    }
+
+    .service p {
+      color: var(--color-text-light);
+      font-size: 0.95rem;
+      line-height: 1.8;
+    }
+
+    /* Contact */
+    .contact-links {
+      display: flex;
+      justify-content: center;
+      gap: 2.5rem;
+      flex-wrap: wrap;
+    }
+
+    .contact-links a {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-decoration: none;
+      color: var(--color-text);
+      font-size: 0.9rem;
+      letter-spacing: 0.05em;
+      transition: color 0.3s;
+    }
+
+    .contact-links a:hover { color: var(--color-text-light); }
+
+    .contact-links svg {
+      width: 20px;
+      height: 20px;
+      fill: currentColor;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 3rem 1.5rem;
+      border-top: 1px solid #e5e5e5;
+      margin-top: 2rem;
+    }
+
+    footer p {
+      font-size: 0.8rem;
+      color: var(--color-text-light);
+      letter-spacing: 0.05em;
+    }
+
+    footer p + p { margin-top: 0.25rem; }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .portfolio-grid {
+        grid-template-columns: 1fr;
+      }
+      .portfolio-grid img {
+        height: 250px;
+      }
+      nav { gap: 1.25rem; }
+      .contact-links { flex-direction: column; align-items: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <a class="skip-link" href="#portfolio">Skip to main content</a>
+
+  <header>
+    <h1 class="logo">Studio V</h1>
+    <p class="tagline">Events + Partnerships + Strategy</p>
+  </header>
+
+  <nav aria-label="Main navigation">
+    <a href="#portfolio">Portfolio</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Portfolio -->
+  <section id="portfolio" aria-labelledby="portfolio-heading">
+    <h2 class="section-title" id="portfolio-heading">Selected Work</h2>
+    <p class="section-subtitle">Curating unforgettable experiences for leading design, art, and lifestyle brands.</p>
+
+    <div class="portfolio-grid">
+      <figure>
+        <img src="images/luxury-dinner-grand-ballroom-chandeliers.jpg"
+             alt="Luxury long-table dinner in an ornate grand ballroom with crystal chandeliers and floral centerpieces"
+             loading="eager" width="800" height="600">
+        <figcaption>Grand Ballroom Dinner</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/elegant-tablescape-tropical-florals.jpg"
+             alt="Elegant tablescape with tropical hibiscus flowers, patterned plates, and persimmons for an intimate dinner"
+             loading="lazy" width="800" height="600">
+        <figcaption>Curated Tablescape Design</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/velvet-lounge-seating-gold-accents.jpg"
+             alt="Luxurious velvet lounge seating with gold accent side tables and 1stDibs magazine at a design event"
+             loading="lazy" width="800" height="600">
+        <figcaption>1stDibs Event Lounge</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/rooftop-dinner-illuminated-building.jpg"
+             alt="Rooftop dinner event with guests dining under a dramatically lit art deco building at night"
+             loading="lazy" width="800" height="600">
+        <figcaption>Rooftop Dining Experience</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/outdoor-rooftop-dinner-city-skyline.jpg"
+             alt="Outdoor rooftop dinner party with guests mingling against a city skyline backdrop at dusk"
+             loading="lazy" width="800" height="600">
+        <figcaption>Skyline Rooftop Event</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/gothic-vaulted-ceiling-dinner.jpg"
+             alt="Intimate dinner under a gothic vaulted ceiling with candlelight and lush floral arrangements"
+             loading="lazy" width="800" height="600">
+        <figcaption>Vaulted Hall Dinner</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/colorful-dessert-display-macarons.jpg"
+             alt="Colorful dessert display with macaron towers, pastries, and vibrant poppy flower arrangements"
+             loading="lazy" width="800" height="600">
+        <figcaption>Curated Dessert Installation</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/interactive-art-experience-performers.jpg"
+             alt="Interactive art experience with costumed performers using a letterpress stamp at a brand activation"
+             loading="lazy" width="800" height="600">
+        <figcaption>Brand Activation Experience</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/1stdibs-schumacher-outdoor-dinner.jpg"
+             alt="Refined outdoor dinner table set with geometric napkins and menu cards for 1stDibs and Schumacher collaboration"
+             loading="lazy" width="800" height="600">
+        <figcaption>1stDibs x Schumacher Dinner</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/atmospheric-gallery-cocktail-event.jpg"
+             alt="Atmospheric gallery cocktail event with silhouetted guests and ambient lighting installation"
+             loading="lazy" width="800" height="600">
+        <figcaption>Gallery Opening Night</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/crowded-cocktail-reception-speakers.jpg"
+             alt="Crowded cocktail reception with guests networking in a stylish venue with vintage speaker installation"
+             loading="lazy" width="800" height="600">
+        <figcaption>Cocktail Reception</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/designer-lighting-showroom-installation.jpg"
+             alt="Curated designer lighting showroom installation featuring diverse lamps and pendant lights"
+             loading="lazy" width="800" height="600">
+        <figcaption>Lighting Design Installation</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/outdoor-garden-dinner-string-lights.jpg"
+             alt="Outdoor garden dinner under string lights with a dramatic light sculpture centerpiece among tropical trees"
+             loading="lazy" width="800" height="600">
+        <figcaption>Garden Dinner Under the Stars</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/1stdibs-skyhouse-gufram-lips-sofa.jpg"
+             alt="1stDibs Skyhouse event featuring the iconic Gufram pink lips sofa with brand ambassadors"
+             loading="lazy" width="800" height="600">
+        <figcaption>1stDibs Skyhouse x Gufram</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/palm-springs-poolside-cocktail-event.jpg"
+             alt="Elegant poolside cocktail event at a Palm Springs estate with palm trees and mountain views at sunset"
+             loading="lazy" width="800" height="600">
+        <figcaption>Palm Springs Poolside Event</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/1stdibs-edie-parker-dinner-celebration.jpg"
+             alt="1stDibs dinner celebrating Edie Parker Home Collection in a rustic industrial venue"
+             loading="lazy" width="800" height="600">
+        <figcaption>1stDibs x Edie Parker Celebration</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/artist-creative-installation-design.jpg"
+             alt="Artist posing on a bold striped rug with gold pipe bench and disco ball in a curated design installation"
+             loading="lazy" width="800" height="600">
+        <figcaption>Creative Design Installation</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/creative-strategist-whiteboard-planning.jpg"
+             alt="Creative strategist sketching ideas on a whiteboard during an event planning session"
+             loading="lazy" width="800" height="600">
+        <figcaption>Strategy &amp; Planning</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/rose-citrus-centerpiece-dinner.jpg"
+             alt="Elegant dinner table centerpiece with peach roses and citrus fruit at an intimate brand dinner"
+             loading="lazy" width="800" height="600">
+        <figcaption>Floral &amp; Citrus Tablescape</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/intimate-dinner-roses-citrus-art.jpg"
+             alt="Intimate dinner setting with peach rose arrangements, citrus accents, and gallery art on the walls"
+             loading="lazy" width="800" height="600">
+        <figcaption>Intimate Brand Dinner</figcaption>
+      </figure>
+
+      <figure>
+        <img src="images/green-interior-disco-ball-design.jpg"
+             alt="Dramatic green interior with a curved staircase, cactus sculpture, disco ball, and eclectic design furniture"
+             loading="lazy" width="800" height="600">
+        <figcaption>Experiential Interior Design</figcaption>
+      </figure>
+    </div>
+
+    <p style="text-align:center; margin-top:2rem; font-size:0.8rem; color:var(--color-text-light); letter-spacing:0.05em;">All photos &copy;BFA</p>
+  </section>
+
+  <!-- Services -->
+  <section id="services" aria-labelledby="services-heading">
+    <h2 class="section-title" id="services-heading">What We Do</h2>
+    <p class="section-subtitle">We bring brands to life through immersive experiences, strategic partnerships, and thoughtful creative direction.</p>
+
+    <div class="services-grid">
+      <article class="service">
+        <h3>Events</h3>
+        <p>From intimate brand dinners to large-scale experiential activations, we produce high-end events that create lasting impressions and meaningful connections.</p>
+      </article>
+      <article class="service">
+        <h3>Partnerships</h3>
+        <p>We forge strategic brand partnerships that amplify reach and resonate with targeted audiences across the design, art, and luxury lifestyle sectors.</p>
+      </article>
+      <article class="service">
+        <h3>Strategy</h3>
+        <p>We develop creative strategies that align brand vision with audience engagement, ensuring every touchpoint delivers impact and authenticity.</p>
+      </article>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" aria-labelledby="contact-heading">
+    <h2 class="section-title" id="contact-heading">Get in Touch</h2>
+    <p class="section-subtitle">Interested in working together? We'd love to hear from you.</p>
+
+    <div class="contact-links">
+      <a href="mailto:emilia@studiov.agency" aria-label="Email Studio V">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        emilia@studiov.agency
+      </a>
+      <a href="https://www.linkedin.com/in/emilia-vincent" target="_blank" rel="noopener noreferrer" aria-label="Emilia Vincent on LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3a2 2 0 012 2v14a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h14m-.5 15.5v-5.3a3.26 3.26 0 00-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 011.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 001.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 00-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+        LinkedIn
+      </a>
+      <a href="https://www.instagram.com/dibsondesign/" target="_blank" rel="noopener noreferrer" aria-label="Studio V on Instagram">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 01-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 017.8 2m-.2 2A3.6 3.6 0 004 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 003.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 110 2.5 1.25 1.25 0 010-2.5M12 7a5 5 0 110 10 5 5 0 010-10m0 2a3 3 0 100 6 3 3 0 000-6z"/></svg>
+        @dibsondesign
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Studio V. All rights reserved.</p>
+    <p>Events + Partnerships + Strategy</p>
+  </footer>
+
+</body>
+</html>

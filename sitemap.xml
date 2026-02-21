@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://www.studiov.agency/</loc>
+    <lastmod>2025-02-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://www.studiov.agency/images/luxury-dinner-grand-ballroom-chandeliers.jpg</image:loc>
+      <image:caption>Luxury long-table dinner in a grand ballroom with crystal chandeliers</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.studiov.agency/images/elegant-tablescape-tropical-florals.jpg</image:loc>
+      <image:caption>Elegant tablescape with tropical hibiscus flowers and patterned plates</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.studiov.agency/images/velvet-lounge-seating-gold-accents.jpg</image:loc>
+      <image:caption>Luxurious velvet lounge seating with gold accents at a design event</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.studiov.agency/images/rooftop-dinner-illuminated-building.jpg</image:loc>
+      <image:caption>Rooftop dinner event under a dramatically lit art deco building</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://www.studiov.agency/images/palm-springs-poolside-cocktail-event.jpg</image:loc>
+      <image:caption>Poolside cocktail event at a Palm Springs estate at sunset</image:caption>
+    </image:image>
+  </url>
+</urlset>
